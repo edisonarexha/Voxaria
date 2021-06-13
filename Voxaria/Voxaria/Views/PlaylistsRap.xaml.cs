@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Voxaria.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PlaylistRap : ContentPage
+    public partial class PlaylistsRap : ContentPage
     {
-        public PlaylistRap()
+        public PlaylistsRap()
         {
             InitializeComponent();
         }

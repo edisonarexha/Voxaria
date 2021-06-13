@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Voxaria.Views.PlaylistRap"
+             x:Class="Voxaria.Views.PlaylistsRap"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout BackgroundColor="Black">
@@ -41,7 +41,7 @@
                         <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400330825498654/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,20,0"/>
                     </StackLayout>
                 </StackLayout>
-                
+
             </Grid>
         </StackLayout>
     </ContentPage.Content>
