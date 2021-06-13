@@ -12,7 +12,11 @@ namespace Voxaria
         public App()
         {
             InitializeComponent();
+<<<<<<< Updated upstream
             MainPage = new HomePage();
+=======
+            MainPage = new Playlist();
+>>>>>>> Stashed changes
         }
 
         protected override void OnStart()

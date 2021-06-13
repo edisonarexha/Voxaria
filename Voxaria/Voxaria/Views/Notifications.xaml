@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.Notifications"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="←" TextColor="White" FontSize="50" Padding="10,-10,0,0" />
+                <Label Text="Notifications" TextColor="White" FontSize="30" Padding="65,10,100,0"/>
+            </StackLayout>
+            <Label Text="Push notifications" TextColor="White" FontSize="30" Margin="10,20,0,0"/>
+            <StackLayout Orientation="Horizontal" Margin=" 20,30,0,0">
+                <Label Text="Recommended Musics" TextColor="White" FontSize="25"/>
+                <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853648224686571550/unknown.png" WidthRequest="60" HeightRequest="40" Margin="60,0,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin=" 20,10,0,0">
+                <Label Text="New Musics" TextColor="White" FontSize="25"/>
+                <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853648224686571550/unknown.png" WidthRequest="60" HeightRequest="40" Margin="178,0,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin=" 20,10,0,0">
+                <Label Text="Artist Updates" TextColor="White" FontSize="25"/>
+                <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853648224686571550/unknown.png" WidthRequest="60" HeightRequest="40" Margin="155.5,0,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin=" 20,10,0,0">
+                <Label Text="New Offers" TextColor="White" FontSize="25"/>
+                <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853648224686571550/unknown.png" WidthRequest="60" HeightRequest="40" Margin="189,0,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin=" 20,10,0,0">
+                <Label Text="Email notifications" TextColor="White" FontSize="25"/>
+                <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853648224686571550/unknown.png" WidthRequest="60" HeightRequest="40" Margin="109,0,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin=" 20,10,0,0">
+                <Label Text="Updates" TextColor="White" FontSize="25"/>
+                <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853648224686571550/unknown.png" WidthRequest="60" HeightRequest="40" Margin="223,0,0,0"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.About"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="←" TextColor="White" FontSize="50" Padding="10,-10,0,0" />
+                <Label Text="About" TextColor="White" FontSize="30" Padding="90,10,100,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Version" TextColor="White" FontSize="20" Margin="40,0,0,0" />
+                <Label Text="1.0.0.0.0" TextColor="White" FontSize="20" Margin="200,0,0,20"/>
+            </StackLayout>
+            <StackLayout Margin="30,30,30,0">
+                <Label Text="Show Terms and Services" TextColor="White" FontSize="23" Margin="40,25,30,0" />
+                <Label Text="Show Privacy Policy" TextColor="White" FontSize="23" Margin="40,25,30,0"/>
+                <Label Text="Show Voice Terms and Conditions" TextColor="White" FontSize="23"  Margin="40,25,0,0"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
