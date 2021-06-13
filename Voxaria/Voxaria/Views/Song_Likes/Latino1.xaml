@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.Song_Likes.Latino1">
+        <ContentPage.Content >
+            <Grid BackgroundColor="Black">
+                <StackLayout>
+                    <Image Source="https://i.ibb.co/FgrNPzY/logo.png"/>
+                </StackLayout>
+                <StackLayout Margin="0,70,0,0">
+                    <Label Text="Latino Music" TextColor="White" FontSize="30"/>
+                </StackLayout>
+
+                <StackLayout Padding="0" >
+                    <Frame Padding="5,0,10,0" BackgroundColor="Black" Margin="0,123,0,500">
+                        <StackLayout  BackgroundColor="Black" Orientation="Horizontal" >
+                            <Image HeightRequest="90" WidthRequest="90" Source="https://i.ibb.co/VmXTYP1/shakira.jpg"/>
+                            <StackLayout>
+                                <Label Text="Hips Don't Lie" TextColor="White" FontSize="25"/>
+                                <Label Text="Shakira" TextColor="White" FontSize="15"/>
+                            </StackLayout>
+                        <Image Margin="70,0,0,0" HeightRequest="65" WidthRequest="65" Source="https://i.ibb.co/fpv1sNz/heart.png"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Padding="0" >
+                    <Frame Padding="5,0,10,0" BackgroundColor="Black" Margin="0,220,0,500">
+                        <StackLayout  BackgroundColor="Black" Orientation="Horizontal" >
+                            <Image HeightRequest="90" WidthRequest="90" Source="https://i.ibb.co/5KhWyYq/filpo.jpg"/>
+                            <StackLayout>
+                                <Label Text="Felicez Los 4" TextColor="White" FontSize="25"/>
+                                <Label Text="Maluma" TextColor="White" FontSize="15"/>
+                            </StackLayout>
+                            <Image Margin="90,0,0,0" HeightRequest="50" WidthRequest="50" Source="https://i.ibb.co/vJqbRzB/heart.jpg"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Padding="0" >
+                    <Frame Padding="5,0,10,0" BackgroundColor="Black" Margin="0,320,0,500">
+                        <StackLayout  BackgroundColor="Black" Orientation="Horizontal" >
+                            <Image HeightRequest="90" WidthRequest="90" Source="https://i.ibb.co/MGF7tvr/shaira2.jpg"/>
+                            <StackLayout>
+                                <Label Text="Chantaje" TextColor="White" FontSize="25"/>
+                                <Label Text="Maluma ft Shakira" TextColor="White" FontSize="15"/>
+                            </StackLayout>
+                            <Image Margin="115,0,0,0" HeightRequest="50" WidthRequest="50" Source="https://i.ibb.co/vJqbRzB/heart.jpg"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Padding="0" >
+                    <Frame Padding="5,0,10,0" BackgroundColor="Black" Margin="0,420,0,500">
+                        <StackLayout  BackgroundColor="Black" Orientation="Horizontal" >
+                            <Image Aspect="AspectFill" HeightRequest="90" WidthRequest="90" Source="https://i.ibb.co/8b1x8ST/rainbow.jpg"/>
+                            <StackLayout>
+                                <Label Text="Mi Gente" TextColor="White" FontSize="25"/>
+                                <Label Text="J Balvin" TextColor="White" FontSize="15"/>
+                            </StackLayout>
+                            <Image Margin="140,0,0,0" HeightRequest="50" WidthRequest="50" Source="https://i.ibb.co/vJqbRzB/heart.jpg"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Padding="0" >
+                    <Frame Padding="5,0,10,0" BackgroundColor="Black" Margin="0,520,0,500">
+                        <StackLayout  BackgroundColor="Black" Orientation="Horizontal" >
+                            <Image Aspect="AspectFill" HeightRequest="90" WidthRequest="90" Source="https://i.ibb.co/khvMbT1/no-Rainbow.jpg"/>
+                            <StackLayout>
+                                <Label Text="Un dia ft Dua Lipa" TextColor="White" FontSize="25"/>
+                                <Label Text="J Balvin" TextColor="White" FontSize="15"/>
+                            </StackLayout>
+                            <Image  Margin="45,0,0,0" HeightRequest="50" WidthRequest="50" Source="https://i.ibb.co/vJqbRzB/heart.jpg"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Margin="0,615,0,0">
+                    <StackLayout>
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853404023234756638/unknown.png" HeightRequest="10"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400082283626506/unknown.png" WidthRequest="45" HeightRequest="30" Margin="30,0,50,0" />
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400365013270528/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,50,0"/>
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400330825498654/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,20,0"/>
+                    </StackLayout>
+
+                </StackLayout>
+
+
+            </Grid>
+
+        </ContentPage.Content>
+    </ContentPage>

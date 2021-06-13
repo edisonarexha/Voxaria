@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.Search">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <StackLayout  Margin="0,-10,0,0">
+                <Label Text="←" TextColor="White" FontSize="50" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Padding="10,0,0,0" Margin="0,50,0,0">
+                <Label Text="Search" TextColor="White" FontSize="40" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Padding="0" >
+                <Frame CornerRadius="10" Padding="5,0,10,0"  Margin="0,120,0,500">
+                    <StackLayout  BackgroundColor="White" Orientation="Horizontal" >
+                        <Image HeightRequest="40" WidthRequest="40" Source="https://i.ibb.co/5s3M7Qb/Searchh.png"/>
+                        <Entry  WidthRequest="380" TextColor="Black"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <StackLayout  Margin="0,200,0,300">
+                <Frame BackgroundColor="Black" HeightRequest="90"  Padding="0" CornerRadius="80">
+                    <StackLayout   HorizontalOptions="StartAndExpand">
+                        <Image WidthRequest="550" HeightRequest="90" Aspect="AspectFill" Source="https://i.ibb.co/WWS6gJL/pop.png" FlowDirection="LeftToRight" HorizontalOptions="Start" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <StackLayout  Margin="0,310,0,100">
+                <Frame BackgroundColor="White"  Padding="0" CornerRadius="80">
+                    <StackLayout  HeightRequest="90"  HorizontalOptions="StartAndExpand">
+                        <Image WidthRequest="550" HeightRequest="90" Aspect="AspectFill" Source="https://i.ibb.co/SdKwddK/Latina.png" HorizontalOptions="Start" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <StackLayout  Margin="0,420,0,100">
+                <Frame BackgroundColor="White"  Padding="0" CornerRadius="80">
+                    <StackLayout  HeightRequest="90"   HorizontalOptions="StartAndExpand">
+                        <Image WidthRequest="550" HeightRequest="90" Aspect="AspectFill" Source="https://i.ibb.co/t4Yxzm2/rnb.jpg" HorizontalOptions="End" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <StackLayout  Margin="0,530,0,100">
+                <Frame BackgroundColor="White"  Padding="0" CornerRadius="80">
+                    <StackLayout  HeightRequest="90"   HorizontalOptions="StartAndExpand">
+                        <Image WidthRequest="550" HeightRequest="90" Aspect="AspectFill" Source="https://i.ibb.co/2jzRxwm/rock.jpg" HorizontalOptions="End" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+
+
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

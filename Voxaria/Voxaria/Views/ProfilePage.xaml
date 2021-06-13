@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.ProfilePage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <StackLayout  Margin="0,-10,0,0">
+                <Label Text="←" TextColor="White" FontSize="50" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Padding="0" >
+                <Frame CornerRadius="10" BackgroundColor="Black" Padding="5,0,10,0"  Margin="15,50,0,500">
+                    <StackLayout  BackgroundColor="Black">
+                        <Image HeightRequest="180" WidthRequest="180" Source="https://i.ibb.co/pXqWxQS/pro-pic.jpg"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <StackLayout  Margin="165,220,0,0">
+                <Label Text="Rachel" TextColor="White" FontSize="30"/>
+            </StackLayout>
+            <StackLayout Padding="0" >
+                <Frame CornerRadius="10" BackgroundColor="Black" Padding="5,0,10,0"  Margin="15,260,0,500">
+                    <StackLayout  BackgroundColor="Black">
+                        <Image HeightRequest="50" WidthRequest="50" Source="https://i.ibb.co/FkQvr8R/edit-profile.jpg"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="20,330,0,0" Orientation="Horizontal">
+                <StackLayout   Orientation="Vertical">
+                    <Label Margin="55,0,0,0" Text="6" TextColor="White" FontSize="25"/>
+                    <Label Margin="35,0,0,0" Text="Playlists" TextColor="White" FontSize="15"/>
+                </StackLayout>
+                <StackLayout  Orientation="Vertical">
+                    <Label Margin="80,0,0,0" Text="0" TextColor="White" FontSize="25"/>
+                    <Label Margin="55,0,0,0" Text="Followers" TextColor="White" FontSize="15"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Label Margin="85,0,0,0" Text="0" TextColor="White" FontSize="25"/>
+                    <Label Margin="60,0,0,0" Text="Following" TextColor="White" FontSize="15"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout  Margin="150,405,0,0">
+                <Label Text="No recent activity." TextColor="White" FontSize="17" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Margin="0,616,0,0">
+                <StackLayout>
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853404023234756638/unknown.png" HeightRequest="10"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" >
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400082283626506/unknown.png" WidthRequest="45" HeightRequest="30" Margin="30,0,50,0" />
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400365013270528/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,50,0"/>
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400330825498654/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,20,0"/>
+                </StackLayout>
+
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

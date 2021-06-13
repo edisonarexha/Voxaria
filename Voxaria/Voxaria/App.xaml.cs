@@ -2,6 +2,8 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Voxaria.Views;
+using Voxaria.Views.Song_Likes;
+
 
 namespace Voxaria
 {
@@ -10,8 +12,7 @@ namespace Voxaria
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new PodDownloads());
+            MainPage = new ProfilePage();
         }
 
         protected override void OnStart()
