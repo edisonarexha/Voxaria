@@ -21,11 +21,10 @@
                     <Label FontSize="20" TextColor="White">Favorite Music</Label>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="https://i.ytimg.com/vi/7C2z4GqqS5E/maxresdefault.jpg" HorizontalOptions="StartAndExpand"/>
+                    <Image Source="https://i.ytimg.com/vi/7C2z4GqqS5E/maxresdefault.jpg"  HorizontalOptions="StartAndExpand" Aspect="AspectFill"/>
+                    <Image Source="https://i.ibb.co/80dqzVG/red.png" HorizontalOptions="EndAndExpand" HeightRequest="100 " Aspect="AspectFill"/>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal">
-                    <Image Source="https://cdn.discordapp.com/attachments/771347449465536553/853719419997913148/txt_iknowiloveyou.png" HorizontalOptions="CenterAndExpand" HeightRequest="200 " Aspect="AspectFill"/>
-                </StackLayout>
+                
                 <StackLayout>
                     <Label FontSize="20" TextColor="White">Favorite PodCast</Label>
                 </StackLayout>
