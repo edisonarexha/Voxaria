@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Voxaria.Views;
 
 namespace Voxaria
 {
@@ -10,7 +11,7 @@ namespace Voxaria
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new PodDownloads());
         }
 
         protected override void OnStart()

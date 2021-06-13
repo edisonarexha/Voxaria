@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.PlaylistAlbanian"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <Grid>
+                <StackLayout>
+                    <Frame Padding="50, 20, 50, 0" HeightRequest="100" BackgroundColor="black">
+                        <Image  Source="https://cdn.discordapp.com/attachments/820757044122353736/834521003278467112/logo.PNG" />
+                    </Frame>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Music" TextColor="White" FontSize="40" Padding="30,-10,40,0"/>
+                        <Label Text="Podcast" TextColor="Gray" FontSize="40" Padding="40,-10,0,0"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Playlist" TextColor="White" FontSize="20" Padding="15,0,20,0" />
+                        <Label Text="Artists" TextColor="Gray" FontSize="20" Padding="15,0,20,0"/>
+                        <Label Text="Albums" TextColor="Gray" FontSize="20" Padding="15,0,20,0"/>
+                        <Label Text="Tracks" TextColor="Gray" FontSize="20" Padding="15,0,10,0"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Albanian - 13 Songs" TextColor="White" FontSize="30" Padding="20,10,0,10"/>
+                        <Label Text="Criminal - Mc Kresha ft Lyrical Son" TextColor="white" FontSize="24" Padding="30,2,0,0"/>
+                        <Label Text="El Chapo - Mozzik ft Getinjo" TextColor="white" FontSize="24" Padding="30,2,0,0"/>
+                        <Label Text="Duro - Dafina Zeqiri" TextColor="white" FontSize="24" Padding="30,2,0,0"/>
+                        <Label Text="Merri Merr i- Ledri x Buta" TextColor="white" FontSize="24" Padding="30,2,0,0"/>
+                        <Label Text="Era - Mc Kresha" TextColor="white" FontSize="24" Padding="30,2,0,0"/>
+                        <Label Text="Bon Bon - Era Istrefi" TextColor="white" FontSize="24" Padding="30,2,0,0"/>
+                        <Label Text="Malli - Kida" TextColor="white" FontSize="24" Padding="30,2,0,0"/>
+                        <Label Text="1990 - Elvana Gjata ft Mc Kresha" TextColor="white" FontSize="24" Padding="30,2,0,0"/>
+                        <Label Text="Ti je - Diona Fona ft EAZ" TextColor="white" FontSize="24" Padding="30,2,0,0"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853404023234756638/unknown.png" HeightRequest="10"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400082283626506/unknown.png" WidthRequest="45" HeightRequest="30" Margin="30,0,50,0" />
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400365013270528/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,50,0"/>
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400330825498654/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,20,0"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

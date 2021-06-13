@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.Playlist"
+             NavigationPage.HasNavigationBar="False">
+             
+    
+    
+        <StackLayout BackgroundColor="Black">
+            <Grid>
+            <StackLayout>
+                <Frame Padding="50, 20, 50, 0" HeightRequest="100" BackgroundColor="black">
+                    <Image  Source="https://cdn.discordapp.com/attachments/820757044122353736/834521003278467112/logo.PNG" />
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Music" TextColor="White" FontSize="40" Padding="30,0,40,0"/>
+                    <Label Text="Podcast" TextColor="Gray" FontSize="40" Padding="40,0,0,0"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Playlist" TextColor="White" FontSize="20" Padding="15,0,20,0" />
+                    <Label Text="Artists" TextColor="Gray" FontSize="20" Padding="15,0,20,0"/>
+                    <Label Text="Albums" TextColor="Gray" FontSize="20" Padding="15,0,20,0"/>
+                    <Label Text="Tracks" TextColor="Gray" FontSize="20" Padding="15,0,10,0"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+                    <StackLayout>
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853395303024820255/unknown.png" HeightRequest="150" WidthRequest="150"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Rap-16 Songs" TextColor="White" FontSize="23" Padding="30,50,0,50"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="10,-20,0,0">
+                    <StackLayout>
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853396749216907314/unknown.png" HeightRequest="150" WidthRequest="150"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Albanian-13 Songs" TextColor="White" FontSize="23" Padding="30,50,0,50"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="10,-20,0,0">
+                    <StackLayout>
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853397889569128508/unknown.png" HeightRequest="150" WidthRequest="150"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Good Vibes-15 Songs" TextColor="White" FontSize="23" Padding="30,50,0,50"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout>
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853404023234756638/unknown.png" HeightRequest="10"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" >
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400082283626506/unknown.png" WidthRequest="45" HeightRequest="30" Margin="30,0,50,0" />
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400365013270528/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,50,0"/>
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400330825498654/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,20,0"/>
+                </StackLayout>
+             </StackLayout>
+                
+            </Grid>
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.PodDownloads"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <Grid>
+                <StackLayout >
+                    <Frame Padding="50, 20, 50, 0" HeightRequest="100" BackgroundColor="black">
+                        <Image  Source="https://cdn.discordapp.com/attachments/820757044122353736/834521003278467112/logo.PNG" />
+                    </Frame>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Music" TextColor="Gray" FontSize="40" Padding="30,-10,40,0"/>
+                        <Label Text="Podcast" TextColor="White" FontSize="40" Padding="40,-10,0,0"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Episodes" TextColor="Gray" FontSize="20" Padding="40,0,30,0" />
+                        <Label Text="Downloads" TextColor="White" FontSize="20" Padding="10,0,20,0"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853434954620600350/unknown.png" WidthRequest="200" HeightRequest="200" Margin="0,10,0,10"/>
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853435299962683432/unknown.png" WidthRequest="200" HeightRequest="200"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853404023234756638/unknown.png" HeightRequest="10"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400082283626506/unknown.png" WidthRequest="45" HeightRequest="30" Margin="30,0,50,0" />
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400365013270528/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,50,0"/>
+                        <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400330825498654/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,20,0"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
