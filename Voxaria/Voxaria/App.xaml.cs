@@ -12,7 +12,7 @@ namespace Voxaria
         public App()
         {
             InitializeComponent();
-            MainPage = new Login();
+            MainPage = new Accounts();
 
         }
         

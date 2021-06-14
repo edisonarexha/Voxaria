@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.Accounts">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <StackLayout Margin="120,100,0,0">
+                <Label Text="Who's listening?" TextColor="White" FontSize="25"/>
+            </StackLayout>
+            <StackLayout>
+                <Frame BackgroundColor="Black">
+                    <Image Source="https://i.ibb.co/YNv1Wwp/logo.png"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="0,40,0,0">
+              
+                <Frame HeightRequest="100" Margin="0,100,0,350" BackgroundColor="Black" >
+                    <Image Source="https://i.ibb.co/jZy39MP/rach.jpg" Aspect="AspectFill" HorizontalOptions="StartAndExpand" WidthRequest="130"/>
+                </Frame>
+                
+                <Frame HeightRequest="80" Margin="70,95,0,347" BackgroundColor="Black" >
+                    <Image Source="https://i.ibb.co/XDp7BxS/mon.jpg" Aspect="AspectFill" HorizontalOptions="EndAndExpand" WidthRequest="130"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Rachel" TextColor="White" Margin="60,290,0,0" FontSize="18"> </Label>
+           
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Monica" TextColor="White" Margin="300,290,0,0" FontSize="18"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="0,220,0,0">
+                <Frame HeightRequest="100" Margin="0,90,0,190" BackgroundColor="Black" >
+                    <Image Source="https://i.ibb.co/c1z0r3Q/chan.jpg" Aspect="AspectFill" HorizontalOptions="StartAndExpand" WidthRequest="130"/>
+                </Frame>
+                <Frame HeightRequest="80" Margin="70,95,0,187" BackgroundColor="Black" >
+                    <Image Source="https://i.ibb.co/3WfWcNp/joey.jpg" Aspect="AspectFill" HorizontalOptions="EndAndExpand" WidthRequest="134"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Chandler" TextColor="White" Margin="60,450,0,0" FontSize="18"></Label>
+
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Joey" TextColor="White" Margin="315,450,0,0" FontSize="18"></Label>
+            </StackLayout>
+            <StackLayout Margin="-50,403,0,0">
+                <Frame HeightRequest="120" Margin="70,70,0,0" BackgroundColor="Black">
+                    <Image Source="https://i.ibb.co/DRpvyL7/phoebe.jpg" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" WidthRequest="130" />
+                </Frame>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Phoebe" TextColor="White" Margin="188,610,0,0" FontSize="18"></Label>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
