@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.SettingsMonn"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content >
+        <StackLayout BackgroundColor="Black">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="←" TextColor="White" FontSize="50" Padding="10,-10,0,0" />
+                <Label Text="Settings" TextColor="White" FontSize="30" Padding="90,10,100,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="https://cdn.discordapp.com/attachments/728027191417372723/853986209231536168/unknown.png" HeightRequest="100" WidthRequest="100" Margin="5,30,0,0"/>
+                <Grid>
+                    <Label Text=" Monn" TextColor="White" FontSize="25" Margin="20,50,0,0"/>
+                    <Label Text="View profile" TextColor="White" FontSize="18" Margin="30,83,0,0"/>
+                </Grid>
+                <Label Text="→" TextColor="White" FontSize="50" Margin="110,40,0,0"/>
+            </StackLayout>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="25,40,0,0">
+                    <Label Text="Account" TextColor="White" FontSize="25" />
+                    <Label Text="→" TextColor="White" FontSize="50" Margin="230,-25,0,0" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="25,10,0,0">
+                    <Label Text="About" TextColor="White" FontSize="25" />
+                    <Label Text="→" TextColor="White" FontSize="50" Margin="255,-25,0,0" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="25,10,0,0">
+                    <Label Text="Notification" TextColor="White" FontSize="25" />
+                    <Label Text="→" TextColor="White" FontSize="50" Margin="195,-25,0,0" />
+                </StackLayout>
+                <StackLayout  Margin="25,40,0,0">
+                    <Label Text="Switch account" TextColor="White" FontSize="25" />
+                </StackLayout>
+                <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853632401401708554/unknown.png" WidthRequest="60" HeightRequest="60" Margin="50,40,50,0"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
