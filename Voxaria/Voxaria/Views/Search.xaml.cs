@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Voxaria.Views.Song_Likes;
 
 namespace Voxaria.Views
 {
@@ -15,6 +16,16 @@ namespace Voxaria.Views
         public Search()
         {
             InitializeComponent();
+            
+        }
+        private async void NavigateButton_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Podcast());
+        }
+
+        private void Button_Focused(object sender, FocusEventArgs e)
+        {
+
         }
     }
 }

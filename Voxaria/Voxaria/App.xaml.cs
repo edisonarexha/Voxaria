@@ -12,9 +12,9 @@ namespace Voxaria
         public App()
         {
             InitializeComponent();
-            MainPage = new PlaylistsRap();
+            MainPage = new Login();
         }
-
+        
         protected override void OnStart()
         {
         }

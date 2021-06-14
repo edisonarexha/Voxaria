@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Voxaria.Views.Login">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <StackLayout BackgroundColor="Black">
+                <Frame BackgroundColor="Black" HeightRequest="100">
+                    <Image Source="https://i.ibb.co/cJsgtkC/lego.jpg" />
+                </Frame>
+            </StackLayout>
+            <StackLayout 
+                         >
+                <Frame Margin="10,200,10,0" HeightRequest="40"  BorderColor="LightBlue" CornerRadius="10" BackgroundColor="Black" Padding="10,10,0,10">
+
+                    <Entry Placeholder="Username" HeightRequest="40" TextColor="White" PlaceholderColor="White"/>
+
+                </Frame>
+                <Frame Margin="10,10,10,0" HeightRequest="40" BorderColor="LightBlue" CornerRadius="10" BackgroundColor="Black" Padding="10,15,0,10">
+
+                    <Entry Placeholder="Password" TextColor="White" PlaceholderColor="White"/>
+
+                </Frame>
+                
+            </StackLayout>
+            <StackLayout>
+                <Frame Margin="100,370,100,0" HeightRequest="40" BorderColor="LightBlue" CornerRadius="10" BackgroundColor="Black" Padding="10,10,10,10" >
+                    <Button Text="Sign Up" BackgroundColor="Black" TextColor="White" WidthRequest="100" />
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="10,540,0,0">
+                <Label Text="Don't have an account?" TextColor="White" FontSize="20"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Sign Up" TextColor="White" FontSize="20"/>
+                    <Label Text="→" TextColor="White" FontSize="40" FontAttributes="Bold" Margin="-5,-20,0,0"/>
+                </StackLayout>
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
