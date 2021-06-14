@@ -2,11 +2,49 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Voxaria.Views.HomePage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+    <ContentPage.Content >
+        <Grid>
+            <StackLayout BackgroundColor="black" >
+
+                <Frame Padding="30, 10, 50, 0" HeightRequest="60" BackgroundColor="black">
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853695291140079636/unknown.png" AnchorX="1000" Aspect="AspectFit" WidthRequest="10" HeightRequest="200" ></Image>
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="20" TextColor="white" BackgroundColor="Black">Last Played</Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Frame Padding="0" BackgroundColor="Black" >
+                        <Image HorizontalOptions="CenterAndExpand" Source="https://cdns-images.dzcdn.net/images/cover/e8a3333f8b5382b07190a415e16248b4/350x350.jpg" Aspect="AspectFill" WidthRequest="400" HeightRequest="200"/>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Label FontSize="20" TextColor="White">Favorite Music</Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://i.ytimg.com/vi/7C2z4GqqS5E/maxresdefault.jpg"  HorizontalOptions="StartAndExpand" Aspect="AspectFill"/>
+                    <Image Source="https://i.ibb.co/80dqzVG/red.png" HorizontalOptions="EndAndExpand" HeightRequest="100 " Aspect="AspectFill"/>
+                </StackLayout>
+                
+                <StackLayout>
+                    <Label FontSize="20" TextColor="White">Favorite PodCast</Label>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Image Source="https://www.iclr.co.uk/wp-content/uploads/media//2019/08/Podcast-825x420.jpg"></Image>
+                    <Image Source="https://lloydslist.maritimeintelligence.informa.com/-/media/lloyds-list/images/podcast/podcasthero2.png"></Image>
+                </StackLayout>
+                <StackLayout>
+                    <Image Source="https://media.discordapp.net/attachments/782869830947569664/853720692812677140/2Q.png"></Image>
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal">
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400082283626506/unknown.png" WidthRequest="45" HeightRequest="30" Margin="30,0,50,0" />
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400365013270528/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,50,0"/>
+                    <Image Source="https://cdn.discordapp.com/attachments/820757044122353736/853400330825498654/unknown.png" WidthRequest="45" HeightRequest="30" Margin="50,0,20,0"/>
+
+                </StackLayout>
+            </StackLayout>
+      
+        </Grid>
+       
     </ContentPage.Content>
 </ContentPage>

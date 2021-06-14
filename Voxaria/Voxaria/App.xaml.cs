@@ -13,6 +13,7 @@ namespace Voxaria
         {
             InitializeComponent();
             MainPage = new Login();
+
         }
         
         protected override void OnStart()
